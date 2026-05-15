@@ -1,0 +1,9 @@
+{
+  "parent": "create:block/item_drain",
+  "textures": {
+    "0": "colorfulpipes:block/item_drain/verdant",
+    "3": "colorfulpipes:block/pump/verdant",
+    "4": "colorfulpipes:block/copper_underside/verdant",
+    "particle": "colorfulpipes:block/item_drain/verdant"
+  }
+}

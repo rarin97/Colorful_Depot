@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "colorfulpipes:copper_tinted_glass_casings"
+    },
+    {
+      "tag": "c:dyes/forest"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:forest_copper_tinted_glass_casing"
+  }
+}

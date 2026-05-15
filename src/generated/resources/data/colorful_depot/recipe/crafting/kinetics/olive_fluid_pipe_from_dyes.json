@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:fluid_pipes"
+    },
+    {
+      "tag": "c:dyes/olive"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:olive_fluid_pipe"
+  }
+}

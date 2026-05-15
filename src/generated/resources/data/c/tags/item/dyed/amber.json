@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:amber_fluid_pipe",
+    "colorfulpipes:amber_smart_fluid_pipe",
+    "colorfulpipes:amber_mechanical_pump",
+    "colorfulpipes:amber_fluid_valve",
+    "colorfulpipes:amber_fluid_tank",
+    "colorfulpipes:amber_spout",
+    "colorfulpipes:amber_item_drain",
+    "colorfulpipes:amber_portable_fluid_interface",
+    "colorfulpipes:amber_hose_pulley",
+    "colorfulpipes:amber_steam_whistle",
+    "colorfulpipes:amber_copper_table_cloth",
+    "colorfulpipes:amber_copper_casing",
+    "colorfulpipes:amber_copper_glass_casing",
+    "colorfulpipes:amber_copper_tinted_glass_casing",
+    "colorfulpipes:amber_copper_scaffolding",
+    "colorfulpipes:amber_copper_ladder",
+    "colorfulpipes:amber_copper_door",
+    "colorfulpipes:amber_copper_bars"
+  ]
+}

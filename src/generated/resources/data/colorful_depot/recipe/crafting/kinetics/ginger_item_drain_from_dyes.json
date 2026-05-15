@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:item_drains"
+    },
+    {
+      "tag": "c:dyes/ginger"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:ginger_item_drain"
+  }
+}

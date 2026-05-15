@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:copper_scaffolds"
+    },
+    {
+      "tag": "c:dyes/olive"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:olive_copper_scaffolding"
+  }
+}

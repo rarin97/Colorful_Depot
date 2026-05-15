@@ -1,0 +1,9 @@
+{
+  "parent": "colorfulpipes:block/printer/block",
+  "textures": {
+    "filter": "colorfulpipes:block/smart_pipe_2/ginger",
+    "particle": "colorfulpipes:block/encased_pipe/ginger",
+    "tank": "colorfulpipes:block/spout/ginger",
+    "tank_bottom": "colorfulpipes:block/encased_pipe/ginger"
+  }
+}

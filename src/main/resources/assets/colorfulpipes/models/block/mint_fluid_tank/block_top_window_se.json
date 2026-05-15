@@ -1,0 +1,10 @@
+{
+	 "parent": "colorfulpipes:block/white_fluid_tank/block_top_window_se",
+	"textures": {
+		"0": "colorfulpipes:block/fluid_tank_top/mint",
+		"1": "colorfulpipes:block/fluid_tank/mint",
+		"3": "colorfulpipes:block/fluid_tank_window/mint",
+		"4": "colorfulpipes:block/fluid_tank_inner/mint",
+		"particle": "colorfulpipes:block/fluid_tank/mint"
+	  }
+}

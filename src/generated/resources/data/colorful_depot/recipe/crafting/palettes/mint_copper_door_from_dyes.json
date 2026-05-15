@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:copper_doors"
+    },
+    {
+      "tag": "c:dyes/mint"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:mint_copper_door"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:mechanical_pumps"
+    },
+    {
+      "tag": "c:dyes/olive"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:olive_mechanical_pump"
+  }
+}

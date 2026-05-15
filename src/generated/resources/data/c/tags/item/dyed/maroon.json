@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:maroon_fluid_pipe",
+    "colorfulpipes:maroon_smart_fluid_pipe",
+    "colorfulpipes:maroon_mechanical_pump",
+    "colorfulpipes:maroon_fluid_valve",
+    "colorfulpipes:maroon_fluid_tank",
+    "colorfulpipes:maroon_spout",
+    "colorfulpipes:maroon_item_drain",
+    "colorfulpipes:maroon_portable_fluid_interface",
+    "colorfulpipes:maroon_hose_pulley",
+    "colorfulpipes:maroon_steam_whistle",
+    "colorfulpipes:maroon_copper_table_cloth",
+    "colorfulpipes:maroon_copper_casing",
+    "colorfulpipes:maroon_copper_glass_casing",
+    "colorfulpipes:maroon_copper_tinted_glass_casing",
+    "colorfulpipes:maroon_copper_scaffolding",
+    "colorfulpipes:maroon_copper_ladder",
+    "colorfulpipes:maroon_copper_door",
+    "colorfulpipes:maroon_copper_bars"
+  ]
+}

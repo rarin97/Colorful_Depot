@@ -1,0 +1,10 @@
+{
+  "parent": "create:block/scaffold/block_horizontal",
+  "textures": {
+    "casing": "colorfulpipes:block/copper_casing/ginger",
+    "inside": "colorfulpipes:block/copper_scaffold_inside/ginger",
+    "particle": "colorfulpipes:block/copper_scaffold/ginger",
+    "side": "colorfulpipes:block/copper_scaffold/ginger",
+    "top": "colorfulpipes:block/copper_funnel_frame/ginger"
+  }
+}

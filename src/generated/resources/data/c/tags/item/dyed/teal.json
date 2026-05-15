@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:teal_fluid_pipe",
+    "colorfulpipes:teal_smart_fluid_pipe",
+    "colorfulpipes:teal_mechanical_pump",
+    "colorfulpipes:teal_fluid_valve",
+    "colorfulpipes:teal_fluid_tank",
+    "colorfulpipes:teal_spout",
+    "colorfulpipes:teal_item_drain",
+    "colorfulpipes:teal_portable_fluid_interface",
+    "colorfulpipes:teal_hose_pulley",
+    "colorfulpipes:teal_steam_whistle",
+    "colorfulpipes:teal_copper_table_cloth",
+    "colorfulpipes:teal_copper_casing",
+    "colorfulpipes:teal_copper_glass_casing",
+    "colorfulpipes:teal_copper_tinted_glass_casing",
+    "colorfulpipes:teal_copper_scaffolding",
+    "colorfulpipes:teal_copper_ladder",
+    "colorfulpipes:teal_copper_door",
+    "colorfulpipes:teal_copper_bars"
+  ]
+}

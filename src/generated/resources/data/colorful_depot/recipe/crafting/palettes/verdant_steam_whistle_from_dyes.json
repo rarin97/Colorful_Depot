@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:steam_whistles"
+    },
+    {
+      "tag": "c:dyes/verdant"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:verdant_steam_whistle"
+  }
+}

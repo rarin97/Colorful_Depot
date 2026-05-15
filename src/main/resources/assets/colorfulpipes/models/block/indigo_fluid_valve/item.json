@@ -1,0 +1,8 @@
+{
+  "parent": "colorfulpipes:block/white_fluid_valve/item",
+  "textures": {
+    "2": "colorfulpipes:block/fluid_valve/indigo",
+    "4": "colorfulpipes:block/valve_open/indigo",
+    "particle": "colorfulpipes:block/valve_closed/indigo"
+  }
+}

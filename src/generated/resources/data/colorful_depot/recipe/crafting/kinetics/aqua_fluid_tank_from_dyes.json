@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:fluid_tanks"
+    },
+    {
+      "tag": "c:dyes/aqua"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:aqua_fluid_tank"
+  }
+}

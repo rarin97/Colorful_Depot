@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:aqua_fluid_pipe",
+    "colorfulpipes:aqua_smart_fluid_pipe",
+    "colorfulpipes:aqua_mechanical_pump",
+    "colorfulpipes:aqua_fluid_valve",
+    "colorfulpipes:aqua_fluid_tank",
+    "colorfulpipes:aqua_spout",
+    "colorfulpipes:aqua_item_drain",
+    "colorfulpipes:aqua_portable_fluid_interface",
+    "colorfulpipes:aqua_hose_pulley",
+    "colorfulpipes:aqua_steam_whistle",
+    "colorfulpipes:aqua_copper_table_cloth",
+    "colorfulpipes:aqua_copper_casing",
+    "colorfulpipes:aqua_copper_glass_casing",
+    "colorfulpipes:aqua_copper_tinted_glass_casing",
+    "colorfulpipes:aqua_copper_scaffolding",
+    "colorfulpipes:aqua_copper_ladder",
+    "colorfulpipes:aqua_copper_door",
+    "colorfulpipes:aqua_copper_bars"
+  ]
+}

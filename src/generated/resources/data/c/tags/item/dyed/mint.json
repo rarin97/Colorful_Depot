@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:mint_fluid_pipe",
+    "colorfulpipes:mint_smart_fluid_pipe",
+    "colorfulpipes:mint_mechanical_pump",
+    "colorfulpipes:mint_fluid_valve",
+    "colorfulpipes:mint_fluid_tank",
+    "colorfulpipes:mint_spout",
+    "colorfulpipes:mint_item_drain",
+    "colorfulpipes:mint_portable_fluid_interface",
+    "colorfulpipes:mint_hose_pulley",
+    "colorfulpipes:mint_steam_whistle",
+    "colorfulpipes:mint_copper_table_cloth",
+    "colorfulpipes:mint_copper_casing",
+    "colorfulpipes:mint_copper_glass_casing",
+    "colorfulpipes:mint_copper_tinted_glass_casing",
+    "colorfulpipes:mint_copper_scaffolding",
+    "colorfulpipes:mint_copper_ladder",
+    "colorfulpipes:mint_copper_door",
+    "colorfulpipes:mint_copper_bars"
+  ]
+}

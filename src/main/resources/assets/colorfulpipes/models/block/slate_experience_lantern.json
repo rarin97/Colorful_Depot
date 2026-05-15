@@ -1,0 +1,8 @@
+{
+  "parent": "colorfulpipes:block/experience_lantern",
+  "textures": {
+    "1": "colorfulpipes:block/experience_lantern_bottom/slate",
+    "2": "colorfulpipes:block/experience_lantern_side/slate",
+    "particle": "colorfulpipes:block/experience_lantern_side/slate"
+  }
+}

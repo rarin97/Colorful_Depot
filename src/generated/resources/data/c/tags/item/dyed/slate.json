@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:slate_fluid_pipe",
+    "colorfulpipes:slate_smart_fluid_pipe",
+    "colorfulpipes:slate_mechanical_pump",
+    "colorfulpipes:slate_fluid_valve",
+    "colorfulpipes:slate_fluid_tank",
+    "colorfulpipes:slate_spout",
+    "colorfulpipes:slate_item_drain",
+    "colorfulpipes:slate_portable_fluid_interface",
+    "colorfulpipes:slate_hose_pulley",
+    "colorfulpipes:slate_steam_whistle",
+    "colorfulpipes:slate_copper_table_cloth",
+    "colorfulpipes:slate_copper_casing",
+    "colorfulpipes:slate_copper_glass_casing",
+    "colorfulpipes:slate_copper_tinted_glass_casing",
+    "colorfulpipes:slate_copper_scaffolding",
+    "colorfulpipes:slate_copper_ladder",
+    "colorfulpipes:slate_copper_door",
+    "colorfulpipes:slate_copper_bars"
+  ]
+}

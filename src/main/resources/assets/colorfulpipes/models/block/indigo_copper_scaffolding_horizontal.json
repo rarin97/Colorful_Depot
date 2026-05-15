@@ -1,0 +1,10 @@
+{
+  "parent": "create:block/scaffold/block_horizontal",
+  "textures": {
+    "casing": "colorfulpipes:block/copper_casing/indigo",
+    "inside": "colorfulpipes:block/copper_scaffold_inside/indigo",
+    "particle": "colorfulpipes:block/copper_scaffold/indigo",
+    "side": "colorfulpipes:block/copper_scaffold/indigo",
+    "top": "colorfulpipes:block/copper_funnel_frame/indigo"
+  }
+}

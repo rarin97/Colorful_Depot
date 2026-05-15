@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:copper_table_cloths"
+    },
+    {
+      "tag": "c:dyes/slate"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:slate_copper_table_cloth"
+  }
+}

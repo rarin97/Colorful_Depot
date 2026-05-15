@@ -1,0 +1,7 @@
+{
+  "parent": "colorfulpipes:block/fluid_hatch",
+  "textures": {
+    "base": "colorfulpipes:block/fluid_hatch/maroon",
+    "particle": "colorfulpipes:block/item_drain/maroon"
+  }
+}

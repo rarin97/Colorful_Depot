@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "colorfulpipes:ginger_copper_table_cloth"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:ginger_copper_table_cloth"
+  }
+}

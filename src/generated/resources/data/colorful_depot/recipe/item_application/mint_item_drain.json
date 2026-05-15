@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:item_drain"
+    },
+    {
+      "tag": "c:dyes/mint"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorfulpipes:mint_item_drain"
+    }
+  ]
+}

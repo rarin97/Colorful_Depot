@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/hose_pulley/item",
+  "textures": {
+    "1": "colorfulpipes:block/hose_pulley/maroon",
+    "3": "colorfulpipes:block/pump/maroon",
+    "particle": "colorfulpipes:block/copper_underside/maroon"
+  }
+}

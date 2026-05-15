@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:smart_fluid_pipes"
+    },
+    {
+      "tag": "c:dyes/maroon"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:maroon_smart_fluid_pipe"
+  }
+}

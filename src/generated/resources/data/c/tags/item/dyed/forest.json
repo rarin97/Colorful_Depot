@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:forest_fluid_pipe",
+    "colorfulpipes:forest_smart_fluid_pipe",
+    "colorfulpipes:forest_mechanical_pump",
+    "colorfulpipes:forest_fluid_valve",
+    "colorfulpipes:forest_fluid_tank",
+    "colorfulpipes:forest_spout",
+    "colorfulpipes:forest_item_drain",
+    "colorfulpipes:forest_portable_fluid_interface",
+    "colorfulpipes:forest_hose_pulley",
+    "colorfulpipes:forest_steam_whistle",
+    "colorfulpipes:forest_copper_table_cloth",
+    "colorfulpipes:forest_copper_casing",
+    "colorfulpipes:forest_copper_glass_casing",
+    "colorfulpipes:forest_copper_tinted_glass_casing",
+    "colorfulpipes:forest_copper_scaffolding",
+    "colorfulpipes:forest_copper_ladder",
+    "colorfulpipes:forest_copper_door",
+    "colorfulpipes:forest_copper_bars"
+  ]
+}

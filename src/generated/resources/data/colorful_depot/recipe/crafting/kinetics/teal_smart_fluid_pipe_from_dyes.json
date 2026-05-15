@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:smart_fluid_pipes"
+    },
+    {
+      "tag": "c:dyes/teal"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:teal_smart_fluid_pipe"
+  }
+}

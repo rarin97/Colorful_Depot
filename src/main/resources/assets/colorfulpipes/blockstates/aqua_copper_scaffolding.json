@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "bottom=false": {
+      "model": "colorfulpipes:block/aqua_copper_scaffolding"
+    },
+    "bottom=true": {
+      "model": "colorfulpipes:block/aqua_copper_scaffolding_horizontal"
+    }
+  }
+}

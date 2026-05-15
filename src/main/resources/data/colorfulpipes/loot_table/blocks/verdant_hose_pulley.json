@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "colorfulpipes:verdant_hose_pulley"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "colorfulpipes:blocks/verdant_hose_pulley"
+}

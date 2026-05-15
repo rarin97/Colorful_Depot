@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:mechanical_pumps"
+    },
+    {
+      "tag": "c:dyes/ginger"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:ginger_mechanical_pump"
+  }
+}

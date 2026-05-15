@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:item_drain"
+    },
+    {
+      "tag": "c:dyes/teal"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorfulpipes:teal_item_drain"
+    }
+  ]
+}

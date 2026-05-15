@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:ginger_fluid_pipe",
+    "colorfulpipes:ginger_smart_fluid_pipe",
+    "colorfulpipes:ginger_mechanical_pump",
+    "colorfulpipes:ginger_fluid_valve",
+    "colorfulpipes:ginger_fluid_tank",
+    "colorfulpipes:ginger_spout",
+    "colorfulpipes:ginger_item_drain",
+    "colorfulpipes:ginger_portable_fluid_interface",
+    "colorfulpipes:ginger_hose_pulley",
+    "colorfulpipes:ginger_steam_whistle",
+    "colorfulpipes:ginger_copper_table_cloth",
+    "colorfulpipes:ginger_copper_casing",
+    "colorfulpipes:ginger_copper_glass_casing",
+    "colorfulpipes:ginger_copper_tinted_glass_casing",
+    "colorfulpipes:ginger_copper_scaffolding",
+    "colorfulpipes:ginger_copper_ladder",
+    "colorfulpipes:ginger_copper_door",
+    "colorfulpipes:ginger_copper_bars"
+  ]
+}

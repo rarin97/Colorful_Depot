@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:olive_fluid_pipe",
+    "colorfulpipes:olive_smart_fluid_pipe",
+    "colorfulpipes:olive_mechanical_pump",
+    "colorfulpipes:olive_fluid_valve",
+    "colorfulpipes:olive_fluid_tank",
+    "colorfulpipes:olive_spout",
+    "colorfulpipes:olive_item_drain",
+    "colorfulpipes:olive_portable_fluid_interface",
+    "colorfulpipes:olive_hose_pulley",
+    "colorfulpipes:olive_steam_whistle",
+    "colorfulpipes:olive_copper_table_cloth",
+    "colorfulpipes:olive_copper_casing",
+    "colorfulpipes:olive_copper_glass_casing",
+    "colorfulpipes:olive_copper_tinted_glass_casing",
+    "colorfulpipes:olive_copper_scaffolding",
+    "colorfulpipes:olive_copper_ladder",
+    "colorfulpipes:olive_copper_door",
+    "colorfulpipes:olive_copper_bars"
+  ]
+}

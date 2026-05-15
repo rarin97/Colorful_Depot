@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:copper_ladders"
+    },
+    {
+      "tag": "c:dyes/rose"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:rose_copper_ladder"
+  }
+}

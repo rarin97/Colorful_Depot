@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "colorfulpipes:copper_glass_casings"
+    },
+    {
+      "tag": "c:dyes/indigo"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:indigo_copper_glass_casing"
+  }
+}

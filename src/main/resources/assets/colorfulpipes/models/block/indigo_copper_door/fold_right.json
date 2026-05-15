@@ -1,0 +1,9 @@
+{
+  "parent": "colorfulpipes:block/white_copper_door/fold_right",
+	"textures": {
+		"0": "colorfulpipes:block/copper_door_side/indigo",
+		"2": "colorfulpipes:block/copper_door_top/indigo",
+		"3": "colorfulpipes:block/copper_door_bottom/indigo",
+		"particle": "colorfulpipes:block/copper_casing/indigo"
+	}
+}

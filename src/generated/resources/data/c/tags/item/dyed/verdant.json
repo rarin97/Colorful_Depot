@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:verdant_fluid_pipe",
+    "colorfulpipes:verdant_smart_fluid_pipe",
+    "colorfulpipes:verdant_mechanical_pump",
+    "colorfulpipes:verdant_fluid_valve",
+    "colorfulpipes:verdant_fluid_tank",
+    "colorfulpipes:verdant_spout",
+    "colorfulpipes:verdant_item_drain",
+    "colorfulpipes:verdant_portable_fluid_interface",
+    "colorfulpipes:verdant_hose_pulley",
+    "colorfulpipes:verdant_steam_whistle",
+    "colorfulpipes:verdant_copper_table_cloth",
+    "colorfulpipes:verdant_copper_casing",
+    "colorfulpipes:verdant_copper_glass_casing",
+    "colorfulpipes:verdant_copper_tinted_glass_casing",
+    "colorfulpipes:verdant_copper_scaffolding",
+    "colorfulpipes:verdant_copper_ladder",
+    "colorfulpipes:verdant_copper_door",
+    "colorfulpipes:verdant_copper_bars"
+  ]
+}

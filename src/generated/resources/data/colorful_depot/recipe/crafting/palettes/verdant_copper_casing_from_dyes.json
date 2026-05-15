@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:copper_casings"
+    },
+    {
+      "tag": "c:dyes/verdant"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:verdant_copper_casing"
+  }
+}

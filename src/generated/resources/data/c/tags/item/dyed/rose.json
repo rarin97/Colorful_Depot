@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:rose_fluid_pipe",
+    "colorfulpipes:rose_smart_fluid_pipe",
+    "colorfulpipes:rose_mechanical_pump",
+    "colorfulpipes:rose_fluid_valve",
+    "colorfulpipes:rose_fluid_tank",
+    "colorfulpipes:rose_spout",
+    "colorfulpipes:rose_item_drain",
+    "colorfulpipes:rose_portable_fluid_interface",
+    "colorfulpipes:rose_hose_pulley",
+    "colorfulpipes:rose_steam_whistle",
+    "colorfulpipes:rose_copper_table_cloth",
+    "colorfulpipes:rose_copper_casing",
+    "colorfulpipes:rose_copper_glass_casing",
+    "colorfulpipes:rose_copper_tinted_glass_casing",
+    "colorfulpipes:rose_copper_scaffolding",
+    "colorfulpipes:rose_copper_ladder",
+    "colorfulpipes:rose_copper_door",
+    "colorfulpipes:rose_copper_bars"
+  ]
+}

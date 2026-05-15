@@ -1,0 +1,11 @@
+{
+  "parent": "colorfulpipes:block/grindstone_drain/block",
+  "textures": {
+    "back": "colorfulpipes:block/mechanical_grinder_back/maroon",
+    "bottom": "colorfulpipes:block/copper_underside/maroon",
+    "front": "colorfulpipes:block/mechanical_grinder_front/maroon",
+    "inner": "colorfulpipes:block/pump/maroon",
+    "particle": "colorfulpipes:block/item_drain/maroon",
+    "side": "colorfulpipes:block/item_drain/maroon"
+  }
+}

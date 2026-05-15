@@ -1,0 +1,22 @@
+{
+  "values": [
+    "colorfulpipes:coral_fluid_pipe",
+    "colorfulpipes:coral_smart_fluid_pipe",
+    "colorfulpipes:coral_mechanical_pump",
+    "colorfulpipes:coral_fluid_valve",
+    "colorfulpipes:coral_fluid_tank",
+    "colorfulpipes:coral_spout",
+    "colorfulpipes:coral_item_drain",
+    "colorfulpipes:coral_portable_fluid_interface",
+    "colorfulpipes:coral_hose_pulley",
+    "colorfulpipes:coral_steam_whistle",
+    "colorfulpipes:coral_copper_table_cloth",
+    "colorfulpipes:coral_copper_casing",
+    "colorfulpipes:coral_copper_glass_casing",
+    "colorfulpipes:coral_copper_tinted_glass_casing",
+    "colorfulpipes:coral_copper_scaffolding",
+    "colorfulpipes:coral_copper_ladder",
+    "colorfulpipes:coral_copper_door",
+    "colorfulpipes:coral_copper_bars"
+  ]
+}

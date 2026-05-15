@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:spouts"
+    },
+    {
+      "tag": "c:dyes/tan"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:tan_spout"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "create:block/spout/block",
+  "textures": {
+    "0": "colorfulpipes:block/spout/aqua",
+    "3": "colorfulpipes:block/encased_pipe/aqua",
+    "particle": "colorfulpipes:block/copper_underside/aqua"
+  }
+}

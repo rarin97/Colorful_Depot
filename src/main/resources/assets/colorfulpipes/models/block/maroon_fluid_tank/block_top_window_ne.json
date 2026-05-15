@@ -1,0 +1,11 @@
+{
+
+	 "parent": "colorfulpipes:block/white_fluid_tank/block_top_window_ne",
+	"textures": {
+		"0": "colorfulpipes:block/fluid_tank_top/maroon",
+		"1": "colorfulpipes:block/fluid_tank/maroon",
+		"3": "colorfulpipes:block/fluid_tank_window/maroon",
+		"4": "colorfulpipes:block/fluid_tank_inner/maroon",
+		"particle": "colorfulpipes:block/fluid_tank/maroon"
+	  }
+}

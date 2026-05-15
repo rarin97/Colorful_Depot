@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "create:item_drains"
+    },
+    {
+      "tag": "c:dyes/coral"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:coral_item_drain"
+  }
+}

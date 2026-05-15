@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:copper_casing"
+    },
+    {
+      "tag": "c:dyes/olive"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorfulpipes:olive_copper_casing"
+    }
+  ]
+}

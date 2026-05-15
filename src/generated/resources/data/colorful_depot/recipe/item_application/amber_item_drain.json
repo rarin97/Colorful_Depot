@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:item_drain"
+    },
+    {
+      "tag": "c:dyes/amber"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorfulpipes:amber_item_drain"
+    }
+  ]
+}

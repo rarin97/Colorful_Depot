@@ -1,0 +1,16 @@
+{
+  "type": "create:item_application",
+  "ingredients": [
+    {
+      "item": "create:item_drain"
+    },
+    {
+      "tag": "c:dyes/navy"
+    }
+  ],
+  "results": [
+    {
+      "id": "colorfulpipes:navy_item_drain"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "colorfulpipes:block/olive_hose_pulley",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "colorfulpipes:block/olive_hose_pulley"
+    },
+    "facing=south": {
+      "model": "colorfulpipes:block/olive_hose_pulley",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "colorfulpipes:block/olive_hose_pulley",
+      "y": 270
+    }
+  }
+}
