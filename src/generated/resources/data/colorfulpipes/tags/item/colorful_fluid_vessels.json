@@ -1,0 +1,132 @@
+{
+  "values": [
+    {
+      "id": "colorfulpipes:white_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:orange_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:magenta_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:light_blue_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:yellow_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:lime_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:pink_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:gray_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:light_gray_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:cyan_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:purple_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:blue_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:brown_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:green_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:red_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:black_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:maroon_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:rose_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:coral_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:indigo_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:navy_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:slate_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:olive_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:amber_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:beige_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:teal_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:mint_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:aqua_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:verdant_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:forest_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:ginger_fluid_vessel",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:tan_fluid_vessel",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "create_dragons_plus:fluid_hatch", "required": false },
+    { "id": "#colorfulpipes:colorful_fluid_hatches", "required": false }
+  ]
+}

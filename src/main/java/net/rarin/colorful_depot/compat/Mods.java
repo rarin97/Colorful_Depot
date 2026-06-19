@@ -14,7 +14,6 @@ import java.util.function.Supplier;
 
 public enum Mods {
 	CREATE_CONNECTED,
-	BITS_N_BOBS,
 	CREATE_DRAGONS_PLUS,
 	CREATE_ENCHANTMENT_INDUSTRY,
 	COLORFULPIPES;

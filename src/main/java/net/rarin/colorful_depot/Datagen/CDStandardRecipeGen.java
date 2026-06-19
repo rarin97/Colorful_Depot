@@ -1,6 +1,7 @@
 package net.rarin.colorful_depot.Datagen;
 
 import com.google.common.base.Supplier;
+import com.google.common.collect.ImmutableList;
 import com.mojang.serialization.Codec;
 import com.mojang.serialization.MapCodec;
 import com.mojang.serialization.codecs.RecordCodecBuilder;
@@ -8,6 +9,7 @@ import com.ninni.dye_depot.registry.DDDyes;
 import com.simibubi.create.AllBlocks;
 import com.simibubi.create.AllItems;
 import com.simibubi.create.api.data.recipe.BaseRecipeProvider;
+import com.simibubi.create.foundation.data.recipe.CommonMetal;
 import com.simibubi.create.foundation.mixin.accessor.MappedRegistryAccessor;
 import com.tterrag.registrate.util.entry.BlockEntry;
 import com.tterrag.registrate.util.entry.ItemProviderEntry;
@@ -41,9 +43,13 @@ import net.neoforged.neoforge.common.conditions.ICondition;
 import net.neoforged.neoforge.common.conditions.ModLoadedCondition;
 import net.neoforged.neoforge.common.conditions.NotCondition;
 import net.rarin.colorful_depot.Colorful_Depot;
+import net.rarin.colorful_depot.compat.Mods;
 import net.rarin.colorfulpipes.CCPBlocks;
 import net.rarin.colorfulpipes.CCPPaletteBlocks;
 import net.rarin.colorfulpipes.CCPTags.ColorfulItemTags;
+import net.rarin.colorfulpipes.compat.CreateDragonsPlus.CDPBlocks;
+import net.rarin.colorfulpipes.compat.CreateEnchantmentIndustry.CEIBlocks;
+import net.rarin.colorfulpipes.compat.Create_Connected.CCBlocks;
 import org.jetbrains.annotations.Nullable;
 
 import javax.annotation.ParametersAreNonnullByDefault;
@@ -83,6 +89,7 @@ public class CDStandardRecipeGen extends BaseRecipeProvider {
 	final EnumMap<DyeColor, GeneratedRecipe> COLORFUL_TABLE_CLOTHS = new EnumMap<>(DyeColor.class);
 	final EnumMap<DyeColor, GeneratedRecipe> COLORFUL_STEAM_WHISTLES = new EnumMap<>(DyeColor.class);
 	final EnumMap<DyeColor, GeneratedRecipe> COLORFUL_COPPER_DOOR = new EnumMap<>(DyeColor.class);
+	final EnumMap<DyeColor, GeneratedRecipe> COLORFUL_STEAM_ENGINES = new EnumMap<>(DyeColor.class);
 
 	private Marker KINETICS = enterFolder("kinetics");
 
@@ -189,6 +196,12 @@ public class CDStandardRecipeGen extends BaseRecipeProvider {
 					.unlockedBy(AllBlocks.HOSE_PULLEY::get)
 					.viaShapeless(b -> b.requires(ColorfulItemTags.HOSE_PULLEYS.tag)
 							.requires(color.get().getTag())));
+
+			COLORFUL_STEAM_ENGINES.put(color.get(), create(CCPBlocks.COLORFUL_STEAM_ENGINES.get(color.get()))
+					.withSuffix("_from_dyes")
+					.unlockedBy(AllBlocks.STEAM_ENGINE::get)
+					.viaShapeless(b -> b.requires(ColorfulItemTags.STEAM_ENGINES.tag)
+							.requires(color.get().getTag())));
 		}
 	}
 
@@ -276,74 +289,74 @@ public class CDStandardRecipeGen extends BaseRecipeProvider {
 		}
 	}
 
-//	private final Marker COMPATS = enterFolder("compats");
-//
-//	{
-//		for (DDDyes color : DDDyes.values()) {
-//
-//			COLORFUL_FLUID_VESSELS.put(color.get(), create(CCBlocks.COLORFUL_FLUID_VESSELS.get(color.get()))
-//					.unlockedBy(AllBlocks.FLUID_TANK::get)
-//					.whenModLoaded(Mods.CREATE_CONNECTED.id())
-//					.viaShapeless(b -> b.requires(ColorfulItemTags.FLUID_VESSELS.tag)
-//							.requires(color.get().getTag())));
-//
-//			COLORFUL_FLUID_VESSELS.put(color.get(),
-//					conversionCycle(ImmutableList.of(CCBlocks.COLORFUL_FLUID_VESSELS.get(color.get()), CCPBlocks.COLORFUL_FLUID_TANKS.get(color.get())),
-//							Mods.CREATE_CONNECTED.id()));
-//
-//			COLORFUL_FLUID_HATCHES.put(color.get(), create(CDPBlocks.COLORFUL_FLUID_HATCHES.get(color))
-//					.unlockedBy(AllBlocks.ITEM_DRAIN::get)
-//					.whenModLoaded(Mods.CREATE_DRAGONS_PLUS.id())
-//					.viaShapeless(b -> b.requires(ColorfulItemTags.FLUID_HATCHES.tag)
-//							.requires(color.getTag())));
-//
-//			COLORFUL_FLUID_HATCHES.put(color, create(CDPBlocks.COLORFUL_FLUID_HATCHES.get(color))
-//					.withSuffix("_from_drain")
-//					.unlockedBy(AllBlocks.ITEM_DRAIN::get)
-//					.whenModLoaded(Mods.CREATE_DRAGONS_PLUS.id())
-//					.viaShapeless(b -> b.requires(Items.COPPER_INGOT)
-//							.requires(CCPBlocks.COLORFUL_DRAINS.get(color))));
-//
-//			COLORFUL_EXPERIENCE_HATCHES.put(color, create(CEIBlocks.COLORFUL_EXPERIENCE_HATCHES.get(color))
-//					.unlockedBy(plus.dragons.createenchantmentindustry.common.registry.CEIBlocks.EXPERIENCE_HATCH::get)
-//					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
-//					.viaShapeless(b -> b.requires(ColorfulItemTags.EXPERIENCE_HATCHES.tag)
-//							.requires(color.getTag())));
-//
-//			COLORFUL_EXPERIENCE_LANTERNS.put(color.get(), create(CEIBlocks.COLORFUL_EXPERIENCE_LANTERNS.get(color.get()))
-//					.withSuffix("_from_dyes")
-//					.unlockedBy(plus.dragons.createenchantmentindustry.common.registry.CEIBlocks.EXPERIENCE_LANTERN::get)
-//					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
-//					.viaShapeless(b -> b.requires(EXPERIENCE_LANTERNS.tag)
-//							.requires(color.get().getTag())));
-//
-//			COLORFUL_EXPERIENCE_LANTERNS.put(color.get(), create(CEIBlocks.COLORFUL_EXPERIENCE_LANTERNS.get(color.get()))
-//					.unlockedBy(CCPPaletteBlocks.COLORFUL_COPPER_CASING.get(color)::get)
-//					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
-//					.viaShaped(b -> b.define('a', AllBlocks.EXPERIENCE_BLOCK)
-//							.define('s', Items.SPONGE).define('c', CCPPaletteBlocks.COLORFUL_COPPER_CASING.get(color.get()))
-//							.pattern("a")
-//							.pattern("s")
-//							.pattern("c")));
-//
-//			COLORFUL_PRINTERS.put(color.get(), create(CEIBlocks.COLORFUL_PRINTERS.get(color.get()))
-//					.withSuffix("_from_dyes")
-//					.unlockedBy(plus.dragons.createenchantmentindustry.common.registry.CEIBlocks.PRINTER::get)
-//					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
-//					.viaShapeless(b -> b.requires(ColorfulItemTags.PRINTERS.tag)
-//							.requires(color.get().getTag())));
-//
-//			COLORFUL_PRINTERS.put(color.get(), create(CEIBlocks.COLORFUL_PRINTERS.get(color.get()))
-//					.unlockedBy(AllItems.BRASS_SHEET::get)
-//					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
-//					.viaShaped(b -> b.define('-', CommonMetal.BRASS.plates)
-//							.define('o', CCPBlocks.COLORFUL_SPOUTS.get(color.get())).define('=', Blocks.IRON_BLOCK)
-//							.pattern("-")
-//							.pattern("o")
-//							.pattern("=")));
-//
-//		}
-//	}
+	private final Marker COMPATS = enterFolder("compats");
+
+	{
+		for (DDDyes color : DDDyes.values()) {
+
+			COLORFUL_FLUID_VESSELS.put(color.get(), create(CCBlocks.COLORFUL_FLUID_VESSELS.get(color.get()))
+					.unlockedBy(AllBlocks.FLUID_TANK::get)
+					.whenModLoaded(Mods.CREATE_CONNECTED.id())
+					.viaShapeless(b -> b.requires(ColorfulItemTags.FLUID_VESSELS.tag)
+							.requires(color.get().getTag())));
+
+			COLORFUL_FLUID_VESSELS.put(color.get(),
+					conversionCycle(ImmutableList.of(CCBlocks.COLORFUL_FLUID_VESSELS.get(color.get()), CCPBlocks.COLORFUL_FLUID_TANKS.get(color.get())),
+							Mods.CREATE_CONNECTED.id()));
+
+			COLORFUL_FLUID_HATCHES.put(color.get(), create(CDPBlocks.COLORFUL_FLUID_HATCHES.get(color.get()))
+					.unlockedBy(AllBlocks.ITEM_DRAIN::get)
+					.whenModLoaded(Mods.CREATE_DRAGONS_PLUS.id())
+					.viaShapeless(b -> b.requires(ColorfulItemTags.FLUID_HATCHES.tag)
+							.requires(color.get().getTag())));
+
+			COLORFUL_FLUID_HATCHES.put(color.get(), create(CDPBlocks.COLORFUL_FLUID_HATCHES.get(color.get()))
+					.withSuffix("_from_drain")
+					.unlockedBy(AllBlocks.ITEM_DRAIN::get)
+					.whenModLoaded(Mods.CREATE_DRAGONS_PLUS.id())
+					.viaShapeless(b -> b.requires(Items.COPPER_INGOT)
+							.requires(CCPBlocks.COLORFUL_DRAINS.get(color.get()))));
+
+			COLORFUL_EXPERIENCE_HATCHES.put(color.get(), create(CEIBlocks.COLORFUL_EXPERIENCE_HATCHES.get(color.get()))
+					.unlockedBy(plus.dragons.createenchantmentindustry.common.registry.CEIBlocks.EXPERIENCE_HATCH::get)
+					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
+					.viaShapeless(b -> b.requires(ColorfulItemTags.EXPERIENCE_HATCHES.tag)
+							.requires(color.get().getTag())));
+
+			COLORFUL_EXPERIENCE_LANTERNS.put(color.get(), create(CEIBlocks.COLORFUL_EXPERIENCE_LANTERNS.get(color.get()))
+					.withSuffix("_from_dyes")
+					.unlockedBy(plus.dragons.createenchantmentindustry.common.registry.CEIBlocks.EXPERIENCE_LANTERN::get)
+					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
+					.viaShapeless(b -> b.requires(ColorfulItemTags.EXPERIENCE_LANTERNS.tag)
+							.requires(color.get().getTag())));
+
+			COLORFUL_EXPERIENCE_LANTERNS.put(color.get(), create(CEIBlocks.COLORFUL_EXPERIENCE_LANTERNS.get(color.get()))
+					.unlockedBy(CCPPaletteBlocks.COLORFUL_COPPER_CASING.get	(color.get())::get)
+					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
+					.viaShaped(b -> b.define('a', AllBlocks.EXPERIENCE_BLOCK)
+							.define('s', Items.SPONGE).define('c', CCPPaletteBlocks.COLORFUL_COPPER_CASING.get(color.get()))
+							.pattern("a")
+							.pattern("s")
+							.pattern("c")));
+
+			COLORFUL_PRINTERS.put(color.get(), create(CEIBlocks.COLORFUL_PRINTERS.get(color.get()))
+					.withSuffix("_from_dyes")
+					.unlockedBy(plus.dragons.createenchantmentindustry.common.registry.CEIBlocks.PRINTER::get)
+					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
+					.viaShapeless(b -> b.requires(ColorfulItemTags.PRINTERS.tag)
+							.requires(color.get().getTag())));
+
+			COLORFUL_PRINTERS.put(color.get(), create(CEIBlocks.COLORFUL_PRINTERS.get(color.get()))
+					.unlockedBy(AllItems.BRASS_SHEET::get)
+					.whenModLoaded(Mods.CREATE_ENCHANTMENT_INDUSTRY.id())
+					.viaShaped(b -> b.define('-', CommonMetal.BRASS.plates)
+							.define('o', CCPBlocks.COLORFUL_SPOUTS.get(color.get())).define('=', Blocks.IRON_BLOCK)
+							.pattern("-")
+							.pattern("o")
+							.pattern("=")));
+
+		}
+	}
 
 	public CDStandardRecipeGen(PackOutput output, CompletableFuture<HolderLookup.Provider> registries) {
 		super(output, registries, Colorful_Depot.ID);

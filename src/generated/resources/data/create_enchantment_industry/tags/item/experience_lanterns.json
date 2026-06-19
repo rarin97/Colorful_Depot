@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "create_enchantment_industry:experience_lantern", "required": false },
+    { "id": "#colorfulpipes:colorful_experience_lanterns", "required": false }
+  ]
+}

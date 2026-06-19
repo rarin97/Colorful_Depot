@@ -45,7 +45,8 @@ public class ColorfulDepotDatagen {
 		Colorful_Depot.registrate().addDataGenerator(ProviderType.LANG, provider -> {
 			BiConsumer<String, String> langConsumer = provider::add;
 
-			provideDefaultLang("interface", langConsumer);
+			//provideDefaultLang("interface", langConsumer);
+			//provideDefaultLang("tooltips", langConsumer);
 		});
 	}
 

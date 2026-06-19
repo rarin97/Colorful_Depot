@@ -1,58 +1,13 @@
 {
-	"credit": "Made with Blockbench",
-	"parent": "block/block",
-	"textures": {
-		"1": "colorfulpipes:block/fluid_tank/aqua",
-		"particle": "colorfulpipes:block/fluid_tank/aqua"
-	},
-	"elements": [
-		{
-			"name": "SideRight",
-			"from": [15, 0, 0],
-			"to": [16, 16, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
-			"faces": {
-				"east": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#1", "cullface": "east"},
-				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "cullface": "east"}
-			}
-		},
-		{
-			"name": "SideRight",
-			"from": [0, 0, 0],
-			"to": [16, 1, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
-			"faces": {
-				"up": {"uv": [0, 16, 16, 0], "texture": "#1", "cullface": "down"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
-			}
-		},
-		{
-			"name": "SideRight",
-			"from": [0, 0, 0],
-			"to": [1, 16, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
-			"faces": {
-				"east": {"uv": [0, 16, 16, 0], "rotation": 90, "texture": "#1", "cullface": "west"},
-				"west": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "cullface": "west"}
-			}
-		},
-		{
-			"name": "SideRight",
-			"from": [0, 15, 0],
-			"to": [16, 16, 16],
-			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 8]},
-			"faces": {
-				"up": {"uv": [0, 16, 16, 0], "texture": "#1", "cullface": "up"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "up"}
-			}
-		}
-	],
-	"groups": [
-		{
-			"name": "tank",
-			"origin": [8, 8, -23],
-			"color": 0,
-			"children": [0, 1, 2, 3]
-		}
-	]
+  "parent": "create_connected:block/fluid_vessel/block_z_middle",
+  "textures": {
+    "0": "colorfulpipes:block/fluid_tank_top/aqua",
+    "1": "colorfulpipes:block/fluid_tank/aqua",
+    "3": "colorfulpipes:block/fluid_tank_window/aqua",
+    "4": "colorfulpipes:block/fluid_tank_inner/aqua",
+    "5": "colorfulpipes:block/fluid_tank_window_single/aqua",
+    "6": "colorfulpipes:block/fluid_container_window/aqua",
+    "7": "colorfulpipes:block/fluid_container_window_single/aqua",
+    "particle": "colorfulpipes:block/fluid_tank/aqua"
+  }
 }

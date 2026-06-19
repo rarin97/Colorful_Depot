@@ -1,10 +1,11 @@
 {
-
-	 "parent": "colorfulpipes:block/white_fluid_tank/block_top",
-	"textures": {
-		"0": "colorfulpipes:block/fluid_tank_top/slate",
-		"1": "colorfulpipes:block/fluid_tank/slate",
-		"4": "colorfulpipes:block/fluid_tank_inner/slate",
-		"particle": "colorfulpipes:block/fluid_tank/slate"
-	  }
+  "parent": "create:block/fluid_tank/block_top",
+  "textures": {
+    "0": "colorfulpipes:block/fluid_tank_top/slate",
+    "1": "colorfulpipes:block/fluid_tank/slate",
+    "3": "colorfulpipes:block/fluid_tank_window/slate",
+    "4": "colorfulpipes:block/fluid_tank_inner/slate",
+    "5": "colorfulpipes:block/fluid_tank_window_single/slate",
+    "particle": "colorfulpipes:block/fluid_tank/slate"
+  }
 }

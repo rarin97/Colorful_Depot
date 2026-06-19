@@ -1,0 +1,132 @@
+{
+  "values": [
+    {
+      "id": "colorfulpipes:white_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:orange_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:magenta_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:light_blue_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:yellow_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:lime_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:pink_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:gray_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:light_gray_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:cyan_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:purple_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:blue_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:brown_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:green_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:red_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:black_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:maroon_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:rose_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:coral_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:indigo_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:navy_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:slate_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:olive_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:amber_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:beige_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:teal_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:mint_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:aqua_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:verdant_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:forest_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:ginger_experience_lantern",
+      "required": false
+    },
+    {
+      "id": "colorfulpipes:tan_experience_lantern",
+      "required": false
+    }
+  ]
+}

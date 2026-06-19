@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "create_enchantment_industry:experience_hatch", "required": false },
+    { "id": "#colorfulpipes:colorful_experience_hatches", "required": false }
+  ]
+}

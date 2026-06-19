@@ -1,0 +1,19 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create_connected"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "colorfulpipes:indigo_fluid_tank"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "colorfulpipes:indigo_fluid_vessel"
+  }
+}

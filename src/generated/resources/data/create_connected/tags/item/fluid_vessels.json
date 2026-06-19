@@ -1,0 +1,6 @@
+{
+  "values": [
+    { "id": "create_connected:fluid_vessel", "required": false },
+    { "id": "#colorfulpipes:colorful_fluid_vessels", "required": false }
+  ]
+}

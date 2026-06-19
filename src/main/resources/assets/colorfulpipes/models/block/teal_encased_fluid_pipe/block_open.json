@@ -1,16 +1,7 @@
 {
-  "credit": "Made with Blockbench",
+  "parent": "create:block/encased_fluid_pipe/block_open",
   "textures": {
     "0": "colorfulpipes:block/encased_pipe/teal",
     "particle": "colorfulpipes:block/encased_pipe/teal"
-  },
-  "elements": [
-    {
-      "from": [0, 0, 15],
-      "to": [16, 16, 16],
-      "faces": {
-        "south": {"uv": [0, 0, 16, 16], "texture": "#0"}
-      }
-    }
-  ]
+  }
 }

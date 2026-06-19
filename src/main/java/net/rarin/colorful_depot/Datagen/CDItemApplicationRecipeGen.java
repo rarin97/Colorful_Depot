@@ -14,6 +14,8 @@ import net.rarin.colorful_depot.Colorful_Depot;
 import net.rarin.colorful_depot.compat.Mods;
 import net.rarin.colorfulpipes.CCPBlocks;
 import net.rarin.colorfulpipes.CCPPaletteBlocks;
+import net.rarin.colorfulpipes.compat.CreateDragonsPlus.CDPBlocks;
+import net.rarin.colorfulpipes.compat.CreateEnchantmentIndustry.CEIBlocks;
 
 import java.util.EnumMap;
 import java.util.concurrent.CompletableFuture;
@@ -38,38 +40,6 @@ public class CDItemApplicationRecipeGen extends ItemApplicationRecipeGen {
 
 	{
 		for (DDDyes color : DDDyes.values()) {
-//			COLORFUL_FLUID_PIPES.put(color.get(), create(color.get().getName() + "_fluid_pipe",
-//					b -> b.require(AllBlocks.FLUID_PIPE.asItem())
-//							.require(color.get().getTag())
-//							.output(CCPBlocks.COLORFUL_FLUID_PIPES.get(color.get()))));
-
-//			COLORFUL_SMART_FLUID_PIPES.put(color.get(), create(color.get().getName() + "_smart_fluid_pipe",
-//					b -> b.require(AllBlocks.SMART_FLUID_PIPE.asItem())
-//							.require(color.get().getTag())
-//							.output(CCPBlocks.COLORFUL_SMART_FLUID_PIPES.get(color.get()))));
-
-//			COLORFUL_PUMPS.put(color.get(), create(color.get().getName() + "_mechanical_pump",
-//					b -> b.require(AllBlocks.MECHANICAL_PUMP.asItem())
-//							.require(color.get().getTag())
-//							.output(CCPBlocks.COLORFUL_PUMPS.get(color.get()))));
-//
-//			COLORFUL_FLUID_VALVES.put(color.get(), create(color.get().getName() + "_fluid_valve",
-//					b -> b.require(AllBlocks.FLUID_VALVE.asItem())
-//							.require(color.get().getTag())
-//							.output(CCPBlocks.COLORFUL_FLUID_VALVES.get(color.get()))));
-
-			COLORFUL_FLUID_TANKS.put(color.get(), create(color.get().getName() + "_fluid_tank",
-					b -> b.require(AllBlocks.FLUID_TANK)
-							.require(color.get().getTag())
-							.output(CCPBlocks.COLORFUL_FLUID_TANKS.get(color.get()))
-							.withCondition(new NotCondition(new ModLoadedCondition(Mods.BITS_N_BOBS.id())))));
-
-//			COLORFUL_FLUID_VESSELS.put(color.get(), create(color.get().getName() + "_fluid_vessel",
-//					b -> b.require(com.hlysine.create_connected.CCBlocks.FLUID_VESSEL)
-//							.require(color.get().getTag())
-//							.output(CCBlocks.COLORFUL_FLUID_VESSELS.get(color.get()))
-//							.withCondition(new ModLoadedCondition(Mods.CREATE_CONNECTED.id()))));
-
 			COLORFUL_SPOUTS.put(color.get(), create(color.get().getName() + "_spout",
 					b -> b.require(AllBlocks.SPOUT.asItem())
 							.require(color.get().getTag())
@@ -79,21 +49,6 @@ public class CDItemApplicationRecipeGen extends ItemApplicationRecipeGen {
 					b -> b.require(AllBlocks.ITEM_DRAIN.asItem())
 							.require(color.get().getTag())
 							.output(CCPBlocks.COLORFUL_DRAINS.get(color.get()))));
-
-//			COLORFUL_FLUID_INTERFACES.put(color.get(), create(color.get().getName() + "_portable_fluid_interface",
-//					b -> b.require(AllBlocks.PORTABLE_FLUID_INTERFACE.asItem())
-//							.require(color.get().getTag())
-//							.output(CCPBlocks.COLORFUL_FLUID_INTERFACES.get(color))));
-
-//			COLORFUL_HOSE_PULLEY.put(color, create(color.getName() + "_hose_pulley",
-//					b -> b.require(AllBlocks.HOSE_PULLEY.asItem())
-//							.require(color.getTag())
-//							.output(CCPBlocks.COLORFUL_HOSE_PULLEYS.get(color))));
-
-//			COLORFUL_STEAM_WHISTLES.put(color, create(color.getName() + "_steam_whistle",
-//					b -> b.require(AllBlocks.STEAM_WHISTLE.asItem())
-//							.require(color.getTag())
-//							.output(CCPPaletteBlocks.COLORFUL_STEAM_WHISTLES.get(color))));
 
 			COLORFUL_COPPER_CASING.put(color.get(), create(color.getName() + "_copper_casing",
 					b -> b.require(AllBlocks.COPPER_CASING.asItem())
@@ -120,26 +75,16 @@ public class CDItemApplicationRecipeGen extends ItemApplicationRecipeGen {
 							.require(color.get().getTag())
 							.output(CCPPaletteBlocks.COLORFUL_COPPER_TINTED_GLASS_CASING.get(color.get()))));
 
-//			COLORFUL_COPPER_ENCASED_SHAFT.put(color, create(color.getName() + "_copper_encased_shaft",
-//					b -> b.require(CCPBlocks.COPPER_ENCASED_SHAFT.get())
-//							.require(color.getTag())
-//							.output(CCPBlocks.COLORFUL_COPPER_ENCASED_SHAFT.get(color))));
-
 			COLORFUL_COPPER_SCAFFOLD.put(color.get(), create(color.getName() + "_copper_scaffolding",
 					b -> b.require(/*ColorfulItemTags.COPPER_SCAFFOLDS.tag*/AllBlocks.COPPER_SCAFFOLD.asItem())
 							.require(color.get().getTag())
 							.output(CCPPaletteBlocks.COLORFUL_COPPER_SCAFFOLD.get(color.get()))));
 
-//			COLORFUL_COPPER_LADDER.put(color, create(color.getName() + "_copper_ladder",
-//					b -> b.require(ColorfulItemTags.COPPER_LADDERS.tag)
-//							.require(color.getTag())
-//							.output(CCPBlocks.COLORFUL_COPPER_LADDER.get(color))));
-
-//			COLORFUL_EXPERIENCE_HATCHES.put(color, create(color.getName() + "_experience_hatch",
-//					b -> b.require(CDPBlocks.COLORFUL_FLUID_HATCHES.get(color))
-//							.require(AllBlocks.EXPERIENCE_BLOCK)
-//							.output(CEIBlocks.COLORFUL_EXPERIENCE_HATCHES.get(color))
-//							.withCondition(new ModLoadedCondition(Mods.CREATE_ENCHANTMENT_INDUSTRY.id()))));
+			COLORFUL_EXPERIENCE_HATCHES.put(color.get(), create(color.getName() + "_experience_hatch",
+					b -> b.require(CDPBlocks.COLORFUL_FLUID_HATCHES.get(color.get()))
+							.require(AllBlocks.EXPERIENCE_BLOCK)
+							.output(CEIBlocks.COLORFUL_EXPERIENCE_HATCHES.get(color.get()))
+							.withCondition(new ModLoadedCondition(Mods.CREATE_ENCHANTMENT_INDUSTRY.id()))));
 		}
 	}
 
